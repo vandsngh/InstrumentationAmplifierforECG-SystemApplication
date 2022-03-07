@@ -1,0 +1,38 @@
+* C:\FOSSEE\instru_low_high\instru_low_high.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 03/04/22 23:12:24
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  ? Net-_R1-Pad2_ in1 Net-_X1-Pad4_ ? Net-_R1-Pad1_ Net-_X1-Pad7_ ? lm_741		
+X2  ? Net-_R2-Pad2_ in2 Net-_X1-Pad4_ ? Net-_R3-Pad2_ Net-_X1-Pad7_ ? lm_741		
+X3  ? Net-_R5-Pad2_ Net-_R4-Pad2_ Net-_X1-Pad4_ ? out_instumentation_ Net-_X1-Pad7_ ? lm_741		
+R1  Net-_R1-Pad1_ Net-_R1-Pad2_ 10k		
+R2  Net-_R1-Pad2_ Net-_R2-Pad2_ 1k		
+R3  Net-_R2-Pad2_ Net-_R3-Pad2_ 10k		
+R5  Net-_R1-Pad1_ Net-_R5-Pad2_ 10k		
+R4  Net-_R3-Pad2_ Net-_R4-Pad2_ 10k		
+R6  Net-_R4-Pad2_ GND 10k		
+R7  Net-_R5-Pad2_ out_instumentation_ 10k		
+v3  Net-_X4-Pad7_ GND 15		
+v4  GND Net-_X4-Pad4_ 15		
+v2  in2 GND sine		
+v1  in1 GND sine		
+U1  in1 plot_v1		
+U2  in2 plot_v1		
+X4  ? out_instumentation_ GND Net-_X4-Pad4_ ? Net-_C1-Pad1_ Net-_X4-Pad7_ ? lm_741		
+X5  ? Net-_R11-Pad1_ GND Net-_X4-Pad4_ ? out Net-_X4-Pad7_ ? lm_741		
+R8  out_instumentation_ GND 10k		
+R10  out_instumentation_ Net-_C1-Pad1_ 100k		
+U3  out plot_v1		
+v5  Net-_X1-Pad7_ GND 15		
+v6  GND Net-_X1-Pad4_ 15		
+C1  Net-_C1-Pad1_ out_instumentation_ 100n		
+C2  Net-_C2-Pad1_ Net-_C1-Pad1_ 100n		
+R9  Net-_C2-Pad1_ Net-_R11-Pad1_ 10k		
+R11  Net-_R11-Pad1_ out 15k		
+U4  out_instumentation_ plot_v1		
+
+.end

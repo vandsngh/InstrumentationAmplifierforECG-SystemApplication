@@ -1,0 +1,24 @@
+ERC report (03/04/22 18:07:33, Encoding UTF8 )
+
+***** Sheet /
+ErrType(8): Global label not connected to any other global label
+    @ (-12.70 mm,22.86 mm): Global label in1 is not connected to any other global label.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (6.35 mm,29.21 mm): Pin 3 (Input) of component X1 is not driven (Net 2).
+ErrType(8): Global label not connected to any other global label
+    @ (-20.32 mm,121.92 mm): Global label in2 is not connected to any other global label.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (-12.70 mm,115.57 mm): Pin ~ (Input) of component U2 is not driven (Net 3).
+ErrType(5): Conflict problem between pins. Severity: error
+    @ (160.02 mm,143.51 mm): Pin 1 (Power output) of component #FLG010 is connected to 
+    @ (46.99 mm,148.59 mm): pin 1 (Power output) of component #FLG09 (net 7).
+ErrType(5): Conflict problem between pins. Severity: error
+    @ (160.02 mm,140.97 mm): Pin 2 (Power output) of component v3 is connected to 
+    @ (160.02 mm,144.78 mm): pin 1 (Power output) of component v4 (net 8).
+ErrType(5): Conflict problem between pins. Severity: error
+    @ (46.99 mm,151.13 mm): Pin 1 (Power output) of component v6 is connected to 
+    @ (46.99 mm,147.32 mm): pin 2 (Power output) of component v5 (net 13).
+ErrType(8): Global label not connected to any other global label
+    @ (281.94 mm,63.50 mm): Global label out is not connected to any other global label.
+
+ ** ERC messages: 8  Errors 3  Warnings 5
