@@ -92,5 +92,7 @@ https://www.veripool.org/verilator/
 4. Sumanto Kar, eSim Team, FOSSEE
 ## References
 [1] Xiu, Limei, and Zheying Li. "Low-powerinstrumentation amplifier IC design for ECGsystemapplications." Procedia Engineering 29 (2012): 1533-1538
+
+
 [2]Kaewfoongrungsie, Piroon, Nipon Theera-Umpon, and Sansanee Auephanwiriyakul. "ECG Holter Recorder Via Mobile Phone." Proceedings of the 3rd International Symposium on Biomedical Engineering, Grand Mercure Fortune Bangkok, Thailand (ISBME 2008). 2008.
 
